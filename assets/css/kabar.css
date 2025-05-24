@@ -1,0 +1,77 @@
+/* Global Reset */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    margin-bottom: 30px;
+}
+
+/* Artikel List */
+.katalog-artikel {
+    margin: 40px 0;
+}
+
+/* Berita Card Layout */
+.berita {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.94);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+
+.berita:hover {
+    transform: translateY(-10px); /* Efek hover untuk mengangkat kotak */
+}
+
+/* Gambar Artikel */
+.foto {
+    width: 250px; /* Ukuran tetap untuk gambar */
+    height: 150px; /* Ukuran tetap untuk gambar */
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 20px; /* Ruang antara gambar dan teks */
+}
+
+/* Teks Artikel */
+.berita h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 0;
+    padding-bottom: 10px;
+    transition: color 0.3s ease;
+    text-transform: capitalize;
+}
+
+.berita h1:hover {
+    color: #047857;
+}
+
+.info-artikel {
+    font-size: 14px;
+    color: #888;
+    font-style: italic;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .foto {
+        width: 100%; /* Agar gambar memenuhi layar pada perangkat kecil */
+        height: auto;
+        margin-right: 0; /* Menghilangkan margin pada perangkat kecil */
+    }
+
+    .berita {
+        flex-direction: column; /* Mengatur tata letak menjadi vertikal pada perangkat kecil */
+        align-items: flex-start;
+    }
+
+    .berita h1 {
+        font-size: 1.4rem;
+    }
+}

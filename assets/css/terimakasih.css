@@ -1,0 +1,87 @@
+.profil-content {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px 30px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.profil-content h2 {
+  font-size: 2.6em;
+  color: #047857;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.profil-content p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  color: #374151;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 30px;
+}
+
+.button-back {
+  display: inline-block;
+  background-color: #047857;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.button-back:hover {
+  background-color: #065f46;
+  transform: translateY(-3px);
+}
+
+.button-back:active {
+  transform: translateY(1px);
+}
+
+/* 🔽 Tambahan Responsif */
+@media (max-width: 768px) {
+  .profil-content {
+    padding: 30px 20px;
+  }
+
+  .profil-content h2 {
+    font-size: 2em;
+  }
+
+  .profil-content p {
+    font-size: 1em;
+  }
+
+  .button-back {
+    font-size: 1em;
+    padding: 12px 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profil-content {
+    padding: 25px 15px;
+  }
+
+  .profil-content h2 {
+    font-size: 1.6em;
+  }
+
+  .profil-content p {
+    font-size: 0.95em;
+  }
+
+  .button-back {
+    font-size: 0.95em;
+    padding: 10px 20px;
+    width: 100%;
+  }
+}
