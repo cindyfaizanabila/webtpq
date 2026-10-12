@@ -86,7 +86,6 @@ assets/                   # CSS, gambar
 - [ ] Formulir pendaftaran santri online
 - [ ] Notifikasi ke pengurus saat ada pesan baru
 
-## Pengembang
 
 **[Nama Lengkap]**: perancangan, pengembangan backend & frontend
 [LinkedIn](#) · [Email](mailto:#)
