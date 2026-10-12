@@ -87,9 +87,4 @@ assets/                   # CSS, gambar
 - [ ] Notifikasi ke pengurus saat ada pesan baru
 
 
-**[Nama Lengkap]**: perancangan, pengembangan backend & frontend
-[LinkedIn](#) · [Email](mailto:#)
 
-## Lisensi
-
-Dirilis di bawah [Lisensi MIT](license.txt).
