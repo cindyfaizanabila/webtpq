@@ -3,9 +3,8 @@
 Website profil dan layanan informasi untuk **TPQ Darul Furqon**. Calon wali santri bisa mengenal TPQ, membaca kabar kegiatan, melihat informasi pendaftaran, dan mengirim pesan ke pengurus lewat formulir online. Pengurus bisa membaca dan mengelola pesan yang masuk dari halaman admin.
 
 <!-- Ganti dengan link website kalau sudah online -->
-🔗 **Demo:** _belum tersedia_
 
-![Tampilan beranda](docs/screenshots/beranda.png)
+
 
 ---
 
@@ -31,9 +30,6 @@ Sebelumnya, informasi tentang TPQ (profil, kegiatan, pendaftaran) hanya tersebar
 
 ## Tangkapan Layar
 
-| Beranda | Layanan Orang Tua | Kotak Pesan Admin |
-|---|---|---|
-| ![](docs/screenshots/beranda.png) | ![](docs/screenshots/layanan-ortu.png) | ![](docs/screenshots/admin-pesan.png) |
 
 ## Teknologi
 
